@@ -1,3 +1,3 @@
-const getHash = () => location.hash.lastIndexOf(1).toLocateLoverCase().split('/') || '/'
+const getHash = () => location.hash.slice(1).toLocaleLowerCase().split('/')[1] || '/'
 
 export default getHash
