@@ -14,7 +14,7 @@ const Home = async () => {
             `).join('')}  
         </div>
     `
-    return view
+    return view;
 }
 
 export default Home
