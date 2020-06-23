@@ -6,6 +6,7 @@ import Character from '../pages/Character'
 import Error404 from '../pages/Error404'
 import getHash from '../utils/getHash'
 import resolveRoutes from '../utils/resolveRoutes'
+import '../styles/styles.css'
 
 
 const routes = {
